@@ -1,0 +1,31 @@
+html 
+    head 
+        title="Document"
+        style 
+            include style.css 
+    body 
+        div(class="navbar")
+            ul 
+                li 
+                    a(href="/")='INICIO'
+                    a(href="/productos")=' PRODUCTOS'
+        h1='Vista de Productos'
+        if productsExist
+            for item in todos 
+                table 
+                    tbody 
+                        tr 
+                            th='Nombre'
+                            th='Precio'
+                            th='Foto'
+                        tr 
+                            td 
+                                strong=item.title 
+                            td=item.price 
+                            td 
+                                img(src=item.thumbnail)                    
+        else 
+            h2='No hay Productos'       
+        footer 
+            p 
+            strong='DESIGN WITH PUG'        

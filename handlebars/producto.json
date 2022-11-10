@@ -1,0 +1,20 @@
+[
+    {
+        "title": "camiseta",
+        "price": "100",
+        "thumbnail": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de18f39b42bd4e1ebb57aec901802be1_9366/Camiseta_Titular_Argentina_22_Blanco_HB9215_21_model.jpg",
+        "id": 1
+    },
+    {
+        "title": "short",
+        "price": "50",
+        "thumbnail": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a28f3eae70a4a63b491adb101354149_9366/Shorts_Titular_Argentina_21_Negro_FS6572_01_laydown.jpg",
+        "id": 2
+    },
+    {
+        "title": "medias",
+        "price": "25",
+        "thumbnail": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e25cb3a035e740f3a220aed201047ac1_9366/Medias_Uniforme_Titular_Argentina_22_Blanco_HB9207_03_standard.jpg",
+        "id": 3
+    }
+]

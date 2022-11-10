@@ -1,0 +1,28 @@
+{{> navbar}}
+
+<h1>Vista de Productos</h1>
+
+{{#if productsExist}}
+    {{#each todos}}
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Foto</th>
+                        </tr>
+                        <tr>
+                            <td><strong>{{this.title}}</strong></td>
+                            <td>$ {{this.price}}</td>
+                            <td><img src="{{this.thumbnail}}"/></td>
+                        </tr>
+                    </tbody>
+                </table>    
+    {{/each}}
+{{else}}
+    <h2>No hay Productos</h2>
+{{/if}}
+
+
+
+{{> footer}}
